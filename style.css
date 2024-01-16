@@ -1,0 +1,18 @@
+body{padding:0;margin:0;font-family: Garamond, serif;width:100%;height:100%;background:rgb(210, 228, 225);}
+#main_div{margin:0 auto; text-align:center;width:100%;}
+#main_header{font-size:1.5rem;font-weight:600;padding-bottom:2rem;border-bottom:2px solid rgb(255, 255, 255);
+    background:rgb(211, 243, 238);padding-top:1.5rem;text-align:left;padding-left:10%;}
+#search_div{padding-bottom:1rem;padding-top:2rem;}
+#city{width:20%;height:2rem;border:1px solid white;font-size:16px;}
+#submit{height:2.2rem;cursor:pointer;position:relative;left:1rem;width:6rem;font-size:18px;font-weight:600;}
+#weather_logo{padding-top:2rem;}
+#weather_val{font-size:2rem;font-weight:800;padding-top:1rem;}
+#weather_desc{font-size:18px;font-weight:600;padding-top:1rem;}
+#main_location{display:flex;gap:1rem;justify-content:center;padding-top:1rem;font-size:18px;font-weight:600;
+padding-bottom:1rem;}
+#main_bottom{display:flex;justify-content:center;gap:15rem;padding-top:2rem;border-top:2px solid white;}
+.bottom_header{font-size:18px;font-weight:600;padding-bottom:1rem;}
+.bottom_val{font-size:22px;font-weight:800;}
+
+#missing_city{color:red;font-size:20px;font-weight:600;padding-top:2rem;text-align:center;}
+#empty_city{color:red;font-size:20px;font-weight:600;padding-top:2rem;text-align:center;padding-bottom:10px;}
